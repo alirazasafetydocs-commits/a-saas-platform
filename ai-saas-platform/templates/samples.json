@@ -1,0 +1,23 @@
+[
+  {
+    "id": "resume-modern",
+    "name": "Modern Resume",
+    "category": "resume",
+    "preview": "Professional 1-page resume template",
+    "content": "# Modern Resume Template\\n\\n## John Doe\\nSoftware Engineer"
+  },
+  {
+    "id": "cover-executive",
+    "name": "Executive Cover Letter",
+    "category": "cover-letter",
+    "preview": "Formal cover letter for senior roles",
+    "content": "Dear Hiring Manager,\\n\\nI am excited to apply for..."
+  },
+  {
+    "id": "hse-policy",
+    "name": "HSE Policy Document",
+    "category": "hse",
+    "preview": "Standard health & safety policy",
+    "content": "# HSE Policy\\n\\n## Safety First"
+  }
+]
