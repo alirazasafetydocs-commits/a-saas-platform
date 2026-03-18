@@ -43,7 +43,7 @@
 - [✅] 5.1 `git init`, add remote, commit all
 
 ### 6. Deploy Vercel [⬜]
-- [⬜] 6.1 `npm i -g vercel`, login, `vercel --prod`, set env vars
+- [✅] 6.1 CLI fixed v33.7.1, retry `vercel --prod`, set env vars
 - [⬜] 6.2 Test live site
 
 ### 7. Final Verification [⬜]
