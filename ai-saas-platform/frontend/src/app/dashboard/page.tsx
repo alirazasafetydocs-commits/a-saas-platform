@@ -129,11 +129,12 @@ export default function Dashboard() {
               <p className="text-red-800 font-medium">{error}</p>
             </div>
           )}
-          {result && (
-            <div className="prose max-w-none p-6 bg-gray-50 rounded-xl border">
+{result && (
+            <div className="prose max-w-none p-6 bg-gray-50 rounded-xl border mb-4">
               <pre className="whitespace-pre-wrap text-sm overflow-auto max-h-96">{result}</pre>
             </div>
           )}
+          {result && <DownloadButtons content={result} filename={tools.find(t => t.id === activeTool)?.name || 'document'} />}
         </div>
       </div>
     </div>

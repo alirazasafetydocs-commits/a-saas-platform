@@ -13,7 +13,8 @@ export default function Navbar() {
           <div className="flex justify-between h-16">
             <div className="flex items-center">
               <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-               </h1>
+                AI SaaS
+              </h1>
             </div>
             <div className="flex items-center">
               <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-primary"></div>
